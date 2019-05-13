@@ -652,7 +652,7 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 7px solid rgb(241, 241, 241);
 }
 
 .team-member h4 {
@@ -910,6 +910,68 @@ body {
 #cdh-email:hover {
   color: #e4e4e4;
   text-decoration: none;
+}
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+.carousel-indicators li {
+  opacity: .6;
+  transition: opacity .6s ease;
+  background-color: black;
+  border: 1px solid transparent;
+}
+
+.carousel-indicators .active {
+  background-color: black;
+  opacity: .8;
+  transition: opacity .6s ease;
+}
+
+.img-parent {
+    width: 100%;
+    height: 600px;
+    min-height: 600px;
+}
+
+.img-child {
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 600px;
+    width: 100%;
 }
 
 
