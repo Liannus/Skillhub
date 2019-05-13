@@ -487,6 +487,13 @@ section h3.section-subheading {
     border-left-width: 0;
 }
 
+.timeline-flex {
+	display: flex;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+}
+
 .timeline>li .timeline-image {
     z-index: 100;
     position: absolute;
@@ -570,7 +577,6 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-image h4 {
-        margin-top: 16px;
         font-size: 13px;
         line-height: 18px;
     }
@@ -598,7 +604,6 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-image h4 {
-        margin-top: 30px;
         font-size: 18px;
         line-height: 26px;
     }
@@ -623,9 +628,9 @@ section h3.section-subheading {
         margin-left: -85px;
     }
 
-    .timeline>li .timeline-image h4 {
+/*    .timeline>li .timeline-image h4 {
         margin-top: 40px;
-    }
+    }*/
 
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px;
@@ -864,4 +869,37 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+
+/* CSS changes for Skillhub */
+.header-all-pages {
+	height: 100vh;
+}
+
+#cdh-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media(min-width:992px) {
+  #cdh-div {
+    justify-content: space-between;
+  }
+}
+
+#cdh-email-div {
+  display: flex;
+  align-items: center;
+}
+
+#cdh-email {
+  font-size: 1.5em;
+  color: white;
+}
+#cdh-email:hover {
+  color: #e4e4e4;
+  text-decoration: none;
 }
