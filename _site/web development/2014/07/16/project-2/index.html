@@ -15,7 +15,6 @@
     <!-- CSS for technical icons -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -37,6 +36,11 @@
     <body id="page-top" class="index">
 
     <!-- Navigation -->
+    <div class="covervid-wrapper">
+      <video class="covervid-video" autoplay loop poster="img/video-fallback.png">
+        <source src="vid/keyboard.mp4" type="video/mp4">
+      </video>
+    </div>
     <nav class="navbar navbar-expand-sm navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -95,7 +99,7 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Welcome To Our Project!</div>
                 <div class="intro-heading">Skillhub</div>
-                <a href="#vision" class="page-scroll btn btn-xl">Show Me More</a>
+                <a href="#vision" class="page-scroll btn btn-xl" style="z-index: 4">Show Me More</a>
             </div>
         </div>
     </header>
@@ -110,7 +114,7 @@
  -->
 
     <!-- Services Section -->
-    <section id="vision">
+    <section id="vision" class="bg-white">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -162,7 +166,7 @@
     </section>
 
     <!-- Solution design section -->
-    <section id="architecture" >
+    <section id="architecture" class="bg-white">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -183,7 +187,7 @@
             <div class="row">
               <div class="col-lg-12 text-center">
                   <h2 class="section-heading">Mock-Ups</h2>
-                  <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                  <h3 class="section-subheading text-muted"></h3>
               </div>
               <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="500000">
                 <!-- Indicators -->
@@ -230,7 +234,7 @@
     </section>
 
     <!-- About Section -->
-    <section id="timeline">
+    <section id="timeline" class="bg-white">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -337,39 +341,15 @@
     </section>
 
     <!-- Team Section -->
-    <section id="team">
+    <section id="team" class="bg-white">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
             <div class="row">
-                
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Joshua Gorman</h4>
-                        <p class="text-muted">Computer Science at Carleton University</p>
-                        <ul class="list-inline social-buttons">
-                            
-                            <li>
-                                <a href="">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </li>
-                            
-                            <li>
-                                <a href="">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                            </li>
-                            
-
-                        </ul>
-                    </div>
-                </div>
                 
                 <div class="col-sm-4">
                     <div class="team-member">
@@ -379,13 +359,13 @@
                         <ul class="list-inline social-buttons">
                             
                             <li>
-                                <a href="">
+                                <a href="https://github.com/bmalghan">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </li>
                             
                             <li>
-                                <a href="">
+                                <a href="https://ca.linkedin.com/in/bmalghan">
                                     <i class="fab fa-linkedin"></i>
                                 </a>
                             </li>
@@ -403,13 +383,37 @@
                         <ul class="list-inline social-buttons">
                             
                             <li>
-                                <a href="">
+                                <a href="https://github.com/DevinSit">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </li>
                             
                             <li>
-                                <a href="">
+                                <a href="https://ca.linkedin.com/in/devin-sit">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Joshua Gorman</h4>
+                        <p class="text-muted">Computer Science at Carleton University</p>
+                        <ul class="list-inline social-buttons">
+                            
+                            <li>
+                                <a href="https://github.com/Liannus">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="https://ca.linkedin.com/in/josh-gorman">
                                     <i class="fab fa-linkedin"></i>
                                 </a>
                             </li>
@@ -431,19 +435,56 @@
     <!-- Clients Aside -->
 <aside class="clients bg-light-gray">
   <div class="container">
-    <div class="row client-parent">
-      <span class="fa-stack fa-4x client-child">
-          <i class="fab fa-react" style="color: grey"></i>
-      </span>
-      <span class="fa-stack fa-4x client-child">
-          <i class="fab fa-node-js"style="color: grey"></i>
-      </span>
-      <span class="fa-stack fa-4x client-child"style="color: grey">
-          <i class="fab fa-sass"></i>
-      </span>
-      <span class="fa-stack fa-4x client-child"style="color: grey">
-          <i class="fab fa-docker"></i>
-      </span>
+    <div class="row client-parent" style="padding: 10px">
+      
+        <span class="fa-stack fa-3x client-child">
+          <a href="https://www.docker.com/"">
+            <img class="grayscale" src="img/tech/docker-icon.svg">
+          </a>
+        </span>
+      
+        <span class="fa-stack fa-3x client-child">
+          <a href="https://cloud.google.com/"">
+            <img class="grayscale" src="img/tech/google_cloud-icon.svg">
+          </a>
+        </span>
+      
+        <span class="fa-stack fa-3x client-child">
+          <a href="http://stackoverflow.com/questions/tagged/jekyll"">
+            <img class="grayscale" src="img/tech/kubernetes-icon.svg">
+          </a>
+        </span>
+      
+        <span class="fa-stack fa-3x client-child">
+          <a href="https://nodejs.org/en/"">
+            <img class="grayscale" src="img/tech/nodejs-icon.svg">
+          </a>
+        </span>
+      
+        <span class="fa-stack fa-3x client-child">
+          <a href="https://www.postgresql.org/"">
+            <img class="grayscale" src="img/tech/postgresql-icon.svg">
+          </a>
+        </span>
+      
+        <span class="fa-stack fa-3x client-child">
+          <a href="https://reactjs.org/"">
+            <img class="grayscale" src="img/tech/reactjs-icon.svg">
+          </a>
+        </span>
+      
+        <span class="fa-stack fa-3x client-child">
+          <a href="https://sass-lang.com/"">
+            <img class="grayscale" src="img/tech/sass-lang-icon.svg">
+          </a>
+        </span>
+      
+        <span class="fa-stack fa-3x client-child">
+          <a href="https://www.terraform.io/"">
+            <img class="grayscale" src="img/tech/terraformio-icon.svg">
+          </a>
+        </span>
+      
     </div>
   </div>
 </aside>
@@ -470,7 +511,7 @@
   </div>
 </section>
 
-      <footer>
+      <footer class="bg-white">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -626,10 +667,12 @@
 
     <!-- Contact Form JavaScript -->
     <script src="/js/jqBootstrapValidation.js"></script>
-    <script src="/js/contact_me.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="/js/agency.js"></script>
+
+    <!-- -->
+    <script src="/js/covervid.min.js"></script>
 
 
     </body>

@@ -9,32 +9,30 @@ description: "Write an awesome description for your new site here. You can edit 
 
 # Team names, titles and social links
 people:
-- name: Joshua Gorman
-  pic: 1
-  position: Computer Science at Carleton University
-  social:
-    - title: github
-      url: #
-    - title: linkedin
-      url: #
-
 - name: Bhalachandra Malghan
   pic: 2
   position: Computer Engineering at University of Ottawa
   social:
     - title: github
-      url: #
+      url: https://github.com/bmalghan
     - title: linkedin
-      url: #
-
+      url: https://ca.linkedin.com/in/bmalghan
 - name: Devin Sit
   pic: 3
   position: Software Engineering at University of Ottawa
   social:
     - title: github
-      url: #
+      url: https://github.com/DevinSit
     - title: linkedin
-      url: #
+      url: https://ca.linkedin.com/in/devin-sit
+- name: Joshua Gorman
+  pic: 1
+  position: Computer Science at Carleton University
+  social:
+    - title: github
+      url: https://github.com/Liannus
+    - title: linkedin
+      url: https://ca.linkedin.com/in/josh-gorman
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -43,16 +41,22 @@ social:
 
 # Software used inside of the application
 software:
-  - title: react
-    url: http://twitter.com/jekyllrb
-  - title: node-js
-    url:
-  - title: sass
+  - title: docker-icon
+    url: https://www.docker.com/
+  - title: google_cloud-icon
+    url: https://cloud.google.com/
+  - title: kubernetes-icon
     url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: Docker
-    url: http://bitbucket.org/jekyll
-  - title: GCP
-    url: http://github.com/jekyll
+  - title: nodejs-icon
+    url: https://nodejs.org/en/
+  - title: postgresql-icon
+    url: https://www.postgresql.org/
+  - title: reactjs-icon
+    url: https://reactjs.org/
+  - title: sass-lang-icon
+    url: https://sass-lang.com/
+  - title: terraformio-icon
+    url: https://www.terraform.io/
 
 # Postal address (add as many lines as necessary)
 address:
