@@ -3,56 +3,55 @@
 
 # Site settings
 title: Skillhub
-email: your-email@domain.com
+email: joshgorman@cmail.carleton.ca
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Joshua Gorman
   pic: 1
-  position: Lead Designer
+  position: Computer Science at Carleton University
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
+    - title: github
       url: #
     - title: linkedin
       url: #
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
+- name: Bhalachandra Malghan
+  pic: 2
+  position: Computer Engineering at University of Ottawa
   social:
-    - title: twitter
+    - title: github
       url: #
-    - title: facebook
+    - title: linkedin
       url: #
-    - title: google-plus
+
+- name: Devin Sit
+  pic: 3
+  position: Software Engineering at University of Ottawa
+  social:
+    - title: github
+      url: #
+    - title: linkedin
       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
   - title: github
+    url: https://github.com/Liannus/Skillhub
+
+# Software used inside of the application
+software:
+  - title: react
+    url: http://twitter.com/jekyllrb
+  - title: node-js
+    url:
+  - title: sass
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: Docker
+    url: http://bitbucket.org/jekyll
+  - title: GCP
     url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
