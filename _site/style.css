@@ -974,6 +974,14 @@ body {
   display: flex !important;
 }
 
+.carousel-inner .right {
+  display: flex !important;
+}
+
+.carousel-inner .left {
+  display: flex !important;
+}
+
 .img-child {
     max-height: 600px;
 }
