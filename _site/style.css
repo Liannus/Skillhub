@@ -968,16 +968,14 @@ body {
 
 /* CSS to make the image resize correctly (used in carousel) */
 .img-parent {
-    width: 100%;
-    height: 600px;
-    min-height: 600px;
+  justify-content: center;
+}
+.carousel-inner .active{
+  display: flex !important;
 }
 
 .img-child {
-    object-fit: cover;
-    min-width: 100%;
-    min-height: 600px;
-    width: 100%;
+    max-height: 600px;
 }
 
 /* CSS for the client component rescaling */
@@ -1030,6 +1028,31 @@ body {
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+/* Timeline image */
+
+.team-image {
+    max-width: 60% !important;
+}
+
+/* Panels section */
+.panels-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.panel-margin {
+  margin: 10px 10px;
+  max-width: 400px;
+}
+
+.text-dark {
+ color: rgb(51, 51, 51);
+ text-transform: none;
+ margin: 5px;
+ text-align: center;
 }
 
 

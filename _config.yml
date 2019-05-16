@@ -46,7 +46,7 @@ software:
   - title: google_cloud-icon
     url: https://cloud.google.com/
   - title: kubernetes-icon
-    url: http://stackoverflow.com/questions/tagged/jekyll
+    url: https://kubernetes.io/
   - title: nodejs-icon
     url: https://nodejs.org/en/
   - title: postgresql-icon
