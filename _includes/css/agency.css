@@ -1054,3 +1054,17 @@ body {
  margin: 5px;
  text-align: center;
 }
+
+/* flexible row for mockups button */
+
+.flex-row {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.proto-button {
+ background-color: #359dfe;
+ margin: 15px 0px 0px 0px;
+}
