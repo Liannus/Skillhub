@@ -1,10 +1,11 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title:
+subtitle: Website Design
 layout: default
-modal-id: 6
-date: 2014-07-15
-img: project-list.png
+modal-id: 1
+date: 2014-07-20
+img: login.png
+thumbnail: golden-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

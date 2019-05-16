@@ -2,12 +2,10 @@
 title:
 subtitle: Website Design
 layout: default
-modal-id: 0
+modal-id: 5
 date: 2014-07-16
-img: dreams.png
-thumbnail: golden-thumbnail.png
+img: project-search.png
 alt: image-alt
-active: active
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
