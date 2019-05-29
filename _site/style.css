@@ -1014,6 +1014,7 @@ body {
     position: fixed;
     top: 50%;
     left: 50%;
+    object-fit: cover;
     min-width: 100%;
     min-height: 100%;
     width: auto;
